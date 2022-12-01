@@ -4,7 +4,7 @@ Console.WriteLine("Введите второе число");
 int second = Convert.ToInt32(Console.ReadLine());
 
 if(first > second){
-    Console.WriteLine($"max = {first}");
+    Console.WriteLine($"max = {first} а min = {second}");
 }else if(second > first){
-    Console.WriteLine($"max = {second}");
+    Console.WriteLine($"max = {second} а min = {first}");
 }
